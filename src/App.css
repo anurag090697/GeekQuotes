@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+#root {
+  width: 100%;
+}
+.container {
+  width: 100%;
+  position: relative;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 1rem 3rem;
+  background-color: rgb(7, 7, 46);
+  position: fixed;
+  top: 0;
+  z-index: 33;
+  color: white;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+}
+nav a:hover {
+  color: blue;
+}
+nav > div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.showQuote {
+  padding: 3rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 2rem;
+}
+.showQuote > div {
+  background-color: yellowgreen;
+  padding: 1rem;
+  border-radius: 12px;
+  color: rgb(0, 54, 155);
+  width: 100%;
+  font-size: 28px;
+  margin-top: 4rem;
+}
+.mkblue {
+  color: blue;
+}
+.showQuote > div > p {
+  color: rgb(255, 0, 0);
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 0, 0);
+}
+footer {
+  background-color: rgb(185, 183, 181);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+  text-align: center;
+}
+footer img {
+  width: 250px;
+  color: greenyellow;
+}
+.fonts {
+  display: flex;
+  gap: 2rem;
+  font-size: 30px;
+  color: black;
+}
+.fonts svg:hover {
+  color: rgb(63, 63, 63);
+  cursor: pointer;
+}
+.linksall {
+  display: flex;
+  gap: 2rem;
+  font-size: 18px;
+}
+.linksall a {
+  color: black;
+  font-weight: 700;
+}
+.linksall a:hover {
+  color: blue;
+}
+.lgp {
+  width: 400px;
+  color: rgb(78, 78, 78);
+}
